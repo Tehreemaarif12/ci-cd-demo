@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/ci-cd-demo/static/js/main.39abebf6.js",
+    "index.html": "/ci-cd-demo/index.html",
+    "main.39abebf6.js.map": "/ci-cd-demo/static/js/main.39abebf6.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.39abebf6.js"
+  ]
+}

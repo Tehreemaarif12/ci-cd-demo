@@ -1,0 +1,2 @@
+document.getElementById("calcButton").addEventListener("click",(function(){const e=parseFloat(document.getElementById("num1").value)+parseFloat(document.getElementById("num2").value);document.getElementById("result").textContent=`The sum is: ${e}`}));
+//# sourceMappingURL=main.39abebf6.js.map
