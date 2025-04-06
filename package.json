@@ -2,7 +2,8 @@
     "name": "ci-cd-demo",
     "version": "1.0.0",
     "scripts": {
-      "test": "jest"
+      "test": "jest",
+      "build": "react-scripts build"  // Change this if you're not using React
     },
     "devDependencies": {
       "jest": "^29.7.0",
@@ -12,4 +13,5 @@
       "testEnvironment": "jest-environment-jsdom"
     }
   }
+  
   
