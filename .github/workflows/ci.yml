@@ -1,0 +1,35 @@
+ 
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main  # Trigger pipeline on push to the main branch
+  pull_request:
+    branches:
+      - main  # Trigger pipeline on pull request to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # Checkout the code from the repository
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2  # Setup Node.js environment
+        with:
+          node-version: '14'  # Specify the Node.js version you want to use
+
+      - name: Install dependencies
+        run: |
+          npm install  # Install all dependencies defined in package.json
+
+      - name: Run tests
+        run: |
+          npm test  # Run tests using the test command in package.json (Jest in this case)
+
+      - name: Deploy (optional)
+        run: |
+          echo "Add deployment steps here"  # Add any deployment steps here (if required)
