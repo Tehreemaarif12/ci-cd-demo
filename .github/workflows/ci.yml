@@ -41,5 +41,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: build  # Adjust as per your output folder
+          folder: build  # Ensure this is the correct folder (adjust if needed)
+
 
