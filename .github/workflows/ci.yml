@@ -42,7 +42,7 @@ jobs:
         with:
           branch: gh-pages
           folder: build  # Ensure this is the correct folder (adjust if needed)
-          token: ${{ secrets.new_token }}  # Use your custom secret token name
+          token: ${{ secrets.my_token }}  # Use your custom secret token name
 
 
 
