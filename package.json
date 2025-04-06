@@ -1,18 +1,30 @@
 {
-    "name": "ci-cd-demo",
-    "version": "1.0.0",
-    "scripts": {
-      "test": "jest",
-      "build": "react-scripts build"
-    },
-    "devDependencies": {
-      "jest": "^29.7.0",
-      "jest-environment-jsdom": "^28.1.0"
-    },
-    "jest": {
-      "testEnvironment": "jest-environment-jsdom"
-    }
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^28.1.0"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
-  
-  
-  
+}
